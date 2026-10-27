@@ -1,0 +1,128 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0faff;
+    color: #203040;
+}
+
+header {
+    background-color: #087e8b;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+nav {
+    background-color: #034f5c;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+nav a:hover {
+    color: #80e8ed;
+}
+
+.hero {
+    text-align: center;
+    padding: 55px 15px;
+    background-color: #d6f5f5;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #087e8b;
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+}
+
+.heading {
+    text-align: center;
+    color: #087e8b;
+    margin-top: 30px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card, .doctor {
+    background-color: white;
+    width: 250px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px #cccccc;
+}
+
+.card img, .doctor img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.appointment {
+    background-color: #d6f5f5;
+    padding: 25px;
+    text-align: center;
+}
+
+form {
+    background-color: white;
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-top: 12px;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #087e8b;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #034f5c;
+}
+
+.timings {
+    text-align: center;
+    padding: 20px;
+}
+
+footer {
+    background-color: #034f5c;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
